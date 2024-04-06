@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class BinarySearchTree {
+class binarysearchtree {
     public static int binary_search(int a[], int left, int right, int k) {
         while (left <= right) {
             int mid = left + (right - left) / 2;
